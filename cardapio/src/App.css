@@ -1,3 +1,112 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+/* it worked */
+/* Reset básico e centralização */
+/* body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+/* Container principal */
+.container {
+  width: 90vw; /* Ajuste conforme necessário */
+  max-width: 1200px; /* Máxima largura para manter a estética */
+  padding: 20px;
+  box-sizing: border-box;
+  
+}
+
+/* Grid de cartões */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Ajusta automaticamente o número de colunas */
+  gap: 16px;
+  
+}
+
+/* Ajuste para os cartões */
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%; /* Imagem ocupa a largura total do cartão */
+  height: auto;
+  max-height: 200px; /* Ajuste conforme necessário */
+  object-fit: cover; /* Garante que a imagem se ajuste corretamente */
+}
+
+/* Botão */
+.container button {
+  background-color: #0275d8;
+  color: white;
+  font-weight: bold;
+  position: fixed;
+  bottom: 16px;
+  right: 24px;
+  transition: all 0.1s linear 0.1s;
+}
+
+.container button:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 7px 0px;
+  transform: scale(1.1);
+} 
+
+/* new code */
+/* Código anterior */
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -39,4 +148,77 @@
 
 .read-the-docs {
   color: #888;
+}
+
+/* Novas regras para centralizar o título e ajustar o layout */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+/* Container principal */
+.container {
+  width: 90vw; /* Ajuste conforme necessário */
+  max-width: 1200px; /* Máxima largura para manter a estética */
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center; /* Centraliza o texto dentro do container */
+}
+
+
+/* Título */
+.container h1 {
+  margin: 0; /* Remove margens para garantir alinhamento centralizado */
+  display: inline-block; /* Garante que o título não ocupe toda a largura disponível */
+  text-align: center; /* Centraliza o texto dentro do bloco */
+  flex-direction: column;
+}
+
+
+/* Grid de cartões */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Ajusta automaticamente o número de colunas */
+  gap: 16px;
+  margin-top: 20px; /* Espaço entre o título e a grid */
+}
+
+/* Ajuste para os cartões */
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%; /* Imagem ocupa a largura total do cartão */
+  height: auto;
+  max-height: 200px; /* Ajuste conforme necessário */
+  object-fit: cover; /* Garante que a imagem se ajuste corretamente */
+}
+
+/* Botão */
+.container button {
+  background-color: #0275d8;
+  color: white;
+  font-weight: bold;
+  position: fixed;
+  bottom: 16px;
+  right: 24px;
+  transition: all 0.1s linear 0.1s;
+}
+
+.container button:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 7px 0px;
+  transform: scale(1.1);
 }
