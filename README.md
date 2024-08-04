@@ -4,12 +4,11 @@
  <h1 align="center">Cardápio</h1>
 <p align="center">
 </p>
-Crud with spring boot and typescript.
 
 
 ### Description 
 ---
-The idea is to create a simple game for a Roblox interface.
+Crud with spring boot(backed) and typescript(frontend).
 
 ---
 
