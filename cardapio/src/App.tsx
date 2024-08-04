@@ -19,8 +19,10 @@ function App() {
       <div className="card-grid">
         {data?.map(foodData =>
           <Card
-            price={foodData.price}
+            // price={foodData.price}
+            key={foodData.id} // Adicione esta linha
             title={foodData.title}
+            price={foodData.price}
             image={foodData.image}
           />
         )}
