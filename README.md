@@ -48,6 +48,6 @@ http://localhost:5173/
 
  The expected project frontend output is:
 <p align="center">
- <img src="" height="250" width="550"> 
+ <img src="pic_cardapio.jpeg" height="250" width="550"> 
 </p>
 
