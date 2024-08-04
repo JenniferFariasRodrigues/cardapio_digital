@@ -1,5 +1,5 @@
 <p align="center">
- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTynGNI5-C7YGr5Wx5owPqTBG7xL2fv_Zh3bQ&s.jpeg" height="250" width="350">  
+ <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTynGNI5-C7YGr5Wx5owPqTBG7xL2fv_Zh3bQ&s.jpeg" height="250" width="550">  
   <h1 align="center"></h1>
  <h1 align="center">Cardápio</h1>
 <p align="center">
