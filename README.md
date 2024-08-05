@@ -57,5 +57,5 @@ Click on "novo" button and insert food.<p align="center">
  <img src="modal_insert.jpeg" height="250" width="550"> 
 </p>
 <p align="center">
- <img src="insert_data_maodl.jpeg" height="250" width="550"> 
+ <img src="insert_data_modal.jpeg" height="250" width="550"> 
 </p>
