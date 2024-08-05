@@ -57,19 +57,21 @@
 
 /* Container principal */
 .container {
-  width: 90vw; /* Ajuste conforme necessário */
+  width: 90vw; 
   max-width: 1200px; /* Máxima largura para manter a estética */
   padding: 20px;
   box-sizing: border-box;
-  
+  text-align: center; /* Centraliza o texto dentro do container */
+
 }
 
 /* Grid de cartões */
 .card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Ajusta automaticamente o número de colunas */
-  gap: 16px;
-  
+  gap: 24px;
+  margin-top: 20px; /* Espaço entre o título e a grid */
+
 }
 
 /* Ajuste para os cartões */
