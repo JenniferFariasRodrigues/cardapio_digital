@@ -50,4 +50,12 @@ http://localhost:5173/
 <p align="center">
  <img src="pic_cardapio.jpeg" height="250" width="550"> 
 </p>
-
+Click on "novo" button and insert food.<p align="center">
+ <img src="modal.jpeg" height="250" width="550"> 
+</p>
+<p align="center">
+ <img src="modal_insert.jpeg" height="250" width="550"> 
+</p>
+<p align="center">
+ <img src="insert_data_maodl.jpeg" height="250" width="550"> 
+</p>
