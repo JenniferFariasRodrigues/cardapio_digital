@@ -14,25 +14,52 @@ interface ModalProps {
     closeModal(): void
 }
 
+// const Input = ({ label, value, updateValue }: InputProps) => {
+//     return (
+//         <>
+//             <label>{label}</label>
+//             <input value={value} onChange={event => updateValue(event.target.value)}></input>
+//         </>
+//     )
+// }
+
 const Input = ({ label, value, updateValue }: InputProps) => {
     return (
         <>
             <label>{label}</label>
-            <input value={value} onChange={event => updateValue(event.target.value)}></input>
+            <input
+                type={label === 'price' ? 'number' : 'text'}
+                value={value}
+                onChange={event => updateValue(event.target.value)}
+            />
         </>
     )
 }
 
+// export function CreateModal({ closeModal }: ModalProps) {
+//     const [title, setTitle] = useState("");
+//     const [price, setPrice] = useState(0);
+//     const [image, setImage] = useState("");
+//     const { mutate, isSuccess, isLoading } = useFoodDataMutate();
+
+//     const submit = () => {
+//         const foodData: FoodData = {
+//             title,
+//             price,
+//             image
+//         }
+//         mutate(foodData)
+//     }
 export function CreateModal({ closeModal }: ModalProps) {
     const [title, setTitle] = useState("");
-    const [price, setPrice] = useState(0);
+    const [price, setPrice] = useState("");
     const [image, setImage] = useState("");
     const { mutate, isSuccess, isLoading } = useFoodDataMutate();
 
     const submit = () => {
         const foodData: FoodData = {
             title,
-            price,
+            price: parseFloat(price) || 0,  // Convert price to number or default to 0
             image
         }
         mutate(foodData)
